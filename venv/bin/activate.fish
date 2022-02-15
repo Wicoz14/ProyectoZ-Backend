@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/wicoz/Documentos/PROYECTO Z/BACKEND/venv"
+set -gx VIRTUAL_ENV "/home/lazarod/Documentos/Flask projects/ProyectoZ-Backend/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
