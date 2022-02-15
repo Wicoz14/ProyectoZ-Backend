@@ -9,4 +9,5 @@ app.config.from_object('main.configurations.config')
 def shutdown_session(exception=None):
     db_session.remove()
 
+
 app.register_blueprint(authBp, url_prefix='/auth')
